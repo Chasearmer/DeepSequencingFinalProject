@@ -1,13 +1,13 @@
-# An exploratory analysis of differential regulation patters of m6A on long non-coding and coding RNAs
+# Investigating Differential m6A Regulation: A Comparative Analysis of Long Non-Coding and Coding RNAs
 ## Authored By Feiyue Yang, Chase Armer, Claudia Aiello
 ### A Final Project for Deep Sequencing Fall 2023, Columbia University, taught by Dr. Peter Sims, Dr. Yufeng Shen, and Dr. Chaolin Zhang 
 
 Welcome to the repository for our Deep Sequencing Final Project.
 
 ### Repository Structure
-`code/` Contains all the code used in our analysis, organized by Methods Section<br>
-`data/` Contains all the data used in our analysis <br>
-`figures/` Contains all the figures generated in our analysis, organized by Figure Number
+- `code/` Contains all the code used in our analysis, organized by Methods Section<br>
+- `data/` Contains all the data used in our analysis <br>
+- `figures/` Contains all the figures generated in our analysis, organized by Figure Number
 
 ### Abstract
 This study investigates the differential m6A methylation patterns and their regulatory impacts on long non-coding
