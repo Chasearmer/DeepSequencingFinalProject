@@ -1,0 +1,8 @@
+### Filtering m6A-Modified Genes
+To focus on genes with m6A modifications, we utilized the filter_out_m6a_only_genes.py script. This Python script selectively filters genes based on the presence of m6A modifications (denoted as 'm6A' in the 'm6A_ESC_mm' column) from datasets comparing METTL3 and YTHDF triple-knockout to wild-type conditions in mouse embryonic stem cells. Filtered datasets containing only m6A-modified genes were saved for subsequent analyses.
+
+### Replicate Correlation Analysis 
+Using replicate_scatterplot.py, we assessed the consistency between biological replicates. This script plots scatter diagrams of normalized gene expression counts between pairs of replicates, such as WT replicates, and identifies outliers for removal. Linear regression is applied to quantify the correlation between replicates, with results displayed in scatter plots accompanied by histograms representing the distribution of counts in each replicate.
+
+### Comparing Writer vs. Reader Knockout Effects
+The writer_vs_reader_ko_scatterplot.py script was developed to compare the effects of knocking out m6A writer (METTL3) and reader (YTHDF) proteins on gene expression. This analysis was performed on datasets filtered for m6A-modified genes. The script generates scatter plots comparing log2 fold changes in gene expression between METTL3 and YTHDF knockouts, separately for lncRNA and protein-coding genes. Linear regression analysis provides insights into the correlation between the two knockouts' effects, highlighting potential differences in m6A regulatory mechanisms between gene types.
