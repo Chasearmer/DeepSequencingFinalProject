@@ -2,7 +2,7 @@
 ## Authored By Feiyue Yang, Chase Armer, Claudia Aiello
 ### A Final Project for Deep Sequencing Fall 2023, Columbia University, taught by Dr. Peter Sims, Dr. Yufeng Shen, and Dr. Chaolin Zhang 
 
-Welcome to the repository for our Deep Sequencing Final Project!
+Welcome to the repository for our Deep Sequencing Final Project.
 
 ### Repository Structure
 `code/` Contains all the code used in our analysis, organized by Methods Section<br>
