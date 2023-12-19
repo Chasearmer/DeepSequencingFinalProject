@@ -1,0 +1,1 @@
+Comparative analysis of m6A writer and readers knockout datasets. The expression fold change between knockout and wild-type in Mettl3-knockout and YTHDF1/2/3-triple-knockout conditions were compared, with (a) lncRNA and (b) coding RNAs separately plotted in scatterplots. (c) The correlation between DESeq2 normalized read counts of two wild-type replicates.
