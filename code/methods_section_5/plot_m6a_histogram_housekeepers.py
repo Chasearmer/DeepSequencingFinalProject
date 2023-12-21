@@ -35,9 +35,9 @@ def plot_m6a_histogram(names, filepaths):
     plt.xticks(np.arange(len(counts)), labels=[0, 1, 2, 3, 4, 5, '5+'])
 
     # Add labels, title, and legend
-    plt.xlabel('Number of m6A genes')
+    plt.xlabel('m6A Count')
     plt.ylabel('Counts')
-    plt.title('Comparison of m6A Gene Counts')
+    plt.title('Comparison of m6A Counts')
     plt.legend()
 
     # Show the plot

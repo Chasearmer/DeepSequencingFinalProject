@@ -53,8 +53,8 @@ def plot_m6a_stacked_histogram(names, filepaths):
     plt.xticks(bar_positions, labels=[0, 1, 2, 3, 4, 5, '5+'])
 
     # Add labels, title, and legend
-    plt.xlabel('Number of m6A genes')
-    plt.ylabel('Proportion within m6A category')
+    plt.xlabel('m6A Count')
+    plt.ylabel('Proportion within each m6A category')
     plt.title('Proportional Comparison of m6A Gene Counts (Stacked)')
     plt.legend()
 
